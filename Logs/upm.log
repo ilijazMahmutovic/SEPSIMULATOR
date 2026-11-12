@@ -1,0 +1,37 @@
+[2026-11-12T05:10:16.569Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.8f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 37716 --ipc-path Unity-Upm-37716 -l 2 --log-file C:\\Users\\KORISNIK\\Projects\\SEPSIMULATOR/Logs/upm.log
+[2026-11-12T05:10:16.723Z][INFO] IPC server started (IPC path=Unity-Upm-37716).
+[2026-11-12T05:10:16.724Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-37716.
+[2026-11-12T05:10:24.273Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-12T05:10:25.025Z][INFO] project:list-packages --> 200 (752 ms)
+[2026-11-12T05:10:25.902Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-12T05:10:25.911Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-12T05:10:25.944Z][INFO] config:project:get-registries --> 200 (33 ms)
+[2026-11-12T05:10:26.142Z][INFO] project:list-packages --> 200 (241 ms)
+[2026-11-12T05:10:37.877Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-12T05:10:37.970Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-12T05:10:38.185Z][INFO] project:list-packages --> 200 (308 ms)
+[2026-11-12T05:10:38.269Z][INFO] project:list-packages --> 200 (299 ms)
+[2026-11-12T05:10:38.591Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-12T05:10:38.605Z][INFO] config:project:get-registries --> 200 (15 ms)
+[2026-11-12T05:10:47.881Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-12T05:10:48.494Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy"
+}
+[2026-11-12T05:10:49.354Z][INFO] project:list-packages --> 200 (1473 ms)
+[2026-11-12T05:10:50.049Z][INFO] packages:get-packageinfo --> 200 (1555 ms)
+[2026-11-12T05:10:51.969Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy"
+}
+[2026-11-12T05:10:52.182Z][INFO] packages:get-packageinfo --> 200 (213 ms)
+[2026-11-12T05:11:05.405Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-12T05:11:07.846Z][INFO] project:list-packages --> 200 (2449 ms)

@@ -1,0 +1,678 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 30460)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 12416)
+VBCSCompiler prewarm took 188.42 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-KORISNIK" at "2026-11-12T05:10:13.2287816Z"
+Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'sr' Physical Memory: 15836 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-12T05:10:13Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 31868, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.6.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              00409a15fff7458eb9a6bdb5cbd482a1
+  Correlation Id:          71759682adb6df8a5797010f24a60d28
+  External correlation Id: 1159735133796215128
+  Machine Id:              2XDAP1EhRuL1+CZ4NH82q3c3ifQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-KORISNIK" (connect: 0.00s, validation: 0.03s, handshake: 0.13s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-KORISNIK-notifications" at "2026-11-12T05:10:13.3864978Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token EvYf84Kjqs...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872896050003-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.27s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
+-projectpath
+C:\Users\KORISNIK\Projects\SEPSIMULATOR
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-KORISNIK
+-hubSessionId
+d0b68941-7d0a-4e7d-8928-1b625e0dceae
+-accessToken
+EvYf84Kjqs_2EtRxSQ5mP84z2_KeSo5QqoJ9jyTn2kU006f
+Successfully changed project path to: C:\Users\KORISNIK\Projects\SEPSIMULATOR
+C:/Users/KORISNIK/Projects/SEPSIMULATOR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [33776]  Target information:
+
+Player connection [33776]  * "[IP] 192.168.1.7 [Port] 55504 [Flags] 2 [Guid] 100543710 [EditorId] 100543710 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5RHLHQE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33776] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-37716" after 1.0 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: aa32bb0621ba7be1f8057890b4656439
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/KORISNIK/Projects/SEPSIMULATORUnity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 2.45 ms, found 0 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.8f1 (237b6593792b)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KORISNIK/Projects/SEPSIMULATOR/Assets
+[D3D12 Device Filter] Vendor Name: Intel
+[D3D12 Device Filter] Device Name: Intel(R) Graphics
+[D3D12 Device Filter] Driver Version: 32.0.101.8831
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 9026 MB
+[D3D12 Device Filter] Processor Count: 14
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter(s): {"Vendor": "Intel", "Device Type:": Integrated}, but allowed by user filter(s): {"Feature Level Comparator": Greater Than Or Equal To"Feature Level": "12.2", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        Intel(R) Graphics (ID=0x7d45)
+    Vendor:          Intel
+    VRAM:            9026 MB
+    App VRAM Budget: 8319 MB
+    Driver:          32.0.101.8831
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008144 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.858 seconds
+Domain Reload Profiling: 5516ms
+	BeginReloadAssembly (515ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (299ms)
+	LoadAllAssembliesAndSetupDomain (777ms)
+		LoadAssemblies (483ms)
+		TypeCache.Refresh (525ms)
+			TypeCache.ScanAssembly (480ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (3863ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (299ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (1630ms)
+			EditorAssembliesLoaded (3ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 56 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.28 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.ide.visualstudio@b5edea5f33f4)
+    com.unity.inputsystem@1.20.1 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.searcher@4.9.5 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.render-pipelines.universal@66a8e36658da)
+    com.unity.ugui@2.6.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.ugui@fd16ebf174c6)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.render-pipelines.core@74b1c5924895)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.shadergraph@807b608040c3)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.test-framework@1.8.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.test-framework@ee3fe9477490)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.collections@4920e8897b5a)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\KORISNIK\Projects\SEPSIMULATOR\Library\PackageCache\com.unity.test-framework.performance@e8b39e3ef3d9)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.22 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/KORISNIK/Projects/SEPSIMULATOR
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 1s551ms
+[631/800    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (1.38 seconds), 1 items updated, 800 evaluated
+AssetDatabase: script compilation time: 3.464900s
+Total cache size 50842372
+Total cache size after purge 50842372, took 00:00:00.3270550
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.319 seconds
+Domain Reload Profiling: 4786ms
+	BeginReloadAssembly (654ms)
+		DisableScriptedObjects (121ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (180ms)
+	LoadAllAssembliesAndSetupDomain (1572ms)
+		LoadAssemblies (1068ms)
+		TypeCache.Refresh (273ms)
+			TypeCache.ScanAssembly (246ms)
+		AnalyzeDomain (122ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2321ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (11ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (630ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Starting new worker id: 0 with log in C:/Users/KORISNIK/Projects/SEPSIMULATOR/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=7fcab88733af4664f890b6d707ecff1e): Total: 13.307 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=6579 ms
+		Asset DB Callback time: managed=92 ms, native=296 ms
+		Scripting: domain reloads=1, domain reload time=2718 ms, compile time=3471 ms, other=147 ms
+		Project Asset Count: scripts=1121, non-scripts=2774
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.319ms
+	InvokePackagesCallback: 304.409ms
+	ApplyChangesToAssetFolders: 4.889ms
+	Scan: 966.857ms
+	Collect global state as custom dependencies: 80.215ms
+	CategorizeScriptCompilationAssets: 135.314ms
+	ProcessAssetsWithTransientArtifactChanges: 175.270ms
+	CategorizeAssets: 701.166ms
+	CompileScripts: 3470.899ms
+	ImportOutOfDateAssets: 2387.436ms (2351.903ms without children)
+		ReloadNativeAssets: 0.378ms
+		UnloadImportedAssets: 2.551ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.003ms
+		ImportSchedulerStart: 30.591ms
+	PostProcessAllAssets: 93.031ms
+		MonoPostProcessAllAssets: 92.837ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 41.810ms
+			SyncVS.PostprocessSyncProject 11.373ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.422ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.050ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.248ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.855ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.319ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.659ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.554ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.522ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.455ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.397ms
+	UnloadStreamsBegin: 4.514ms
+	PersistCurrentRevisions: 0.291ms
+	GenerateScriptTypeHashes: 3.757ms
+	GenerateScriptTypeSerializationHashes: 6.516ms
+	Untracked: 4893.128ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 5.803ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-SEPSIMULATOR
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Problem detected while opening the Scene file: 'Assets/sepsimulator.unity'.
+Check the following logs for more details.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:Internal_RestoreLastOpenedScenes ()
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 860]
+
+Prefab instance problem: 'bus (2) (Missing Prefab with guid: 89e15e70adfc19f43bfd6c68dab897c0)'. 4 instances are missing the same Prefab Asset with guid 89e15e70adfc19f43bfd6c68dab897c0.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:Internal_RestoreLastOpenedScenes ()
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 77]
+
+Loaded scene 'Assets/sepsimulator.unity'
+	Deserialize:            117.553 ms
+	Integration:            1658.409 ms
+	Integration of assets:  0.053 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   1776.030 ms
+Unloading 4708 unused Assets / (9.0 MB). Loaded Objects now: 20721.
+Memory consumption went from 0.53 GB to 0.52 GB.
+Total: 39.025800 ms (FindLiveObjects: 5.067900 ms CreateObjectMapping: 1.884000 ms MarkObjects: 21.888200 ms  DeleteObjects: 9.287800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\KORISNIK\Projects\SEPSIMULATOR\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/KORISNIK/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Unity Version Control: NotConfiguredClientException: Unity VCS client is not correctly configured for the current user: Client config file C:\Users\KORISNIK\AppData\Local\plastic4\client.conf not found. Please execute 'cm configure' to perform a text mode configuration or 'plastic --configure' for graphical mode.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Unity.PlasticSCM.Editor.UI.UnityPlasticGuiMessage:LogMessage (string,string,Codice.Client.Common.GuiMessage/GuiMessageType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs:241)
+Unity.PlasticSCM.Editor.UI.UnityPlasticGuiMessage:Codice.Client.Common.GuiMessage.IGuiMessage.ShowMessage (string,string,Codice.Client.Common.GuiMessage/GuiMessageType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs:29)
+Codice.Client.Common.GuiMessage:ShowError (string)
+Unity.PlasticSCM.Editor.PlasticApp/<>c__DisplayClass23_0:<HandleLog>b__0 () (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/PlasticApp.cs:264)
+Unity.PlasticSCM.Editor.UI.GUIActionRunner:RunGUIAction (Unity.PlasticSCM.Editor.UI.GUIActionRunner/ActionDelegate) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/GUIActionRunner.cs:16)
+Unity.PlasticSCM.Editor.PlasticApp:HandleLog (string,string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/PlasticApp.cs:256)
+UnityEngine.Application:CallLogCallback (string,string,UnityEngine.LogType,bool)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEditor.VersionControl.VersionControlManager:Activate (string)
+
+(Filename: ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs Line: 241)
+
+NotConfiguredClientException: Unity VCS client is not correctly configured for the current user: Client config file C:\Users\KORISNIK\AppData\Local\plastic4\client.conf not found. Please execute 'cm configure' to perform a text mode configuration or 'plastic --configure' for graphical mode.
+  at Codice.Client.Common.ClientConfig.get_SafeData () [0x00034] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.ClientConfig.IsSymlinkSupportEnabledOnWindows () [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetPath (System.String path, System.Boolean preserveName, System.Boolean solveLastElement) [0x00069] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetSymLinkPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path, System.Boolean doPlatformGetSymLinkPath) [0x00014] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at PlasticGui.PlasticAPI.GetWorkspaceFromPath (System.String wkPath) [0x00007] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Unity.PlasticSCM.Editor.FindWorkspace.InfoForApplicationPath (System.String path, PlasticGui.IPlasticAPI plasticApi) [0x00011] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\FindWorkspace.cs:29 
+  at Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider.ReloadSettings () [0x0001f] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\Settings\UVCSProjectSettingsProvider.cs:88 
+  at Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider.OnEnable () [0x0001b] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\Settings\UVCSProjectSettingsProvider.cs:44 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected(Type, Boolean)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType(Type, Boolean)
+UnityEngine.ScriptableObject:CreateInstance(Type)
+UnityEditor.VersionControl.VersionControlManager:Activate(String)
+
+(Filename: ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/FindWorkspace.cs Line: 29)
+
+Unity Version Control: NotConfiguredClientException: Unity VCS client is not correctly configured for the current user: Client config file C:\Users\KORISNIK\AppData\Local\plastic4\client.conf not found. Please execute 'cm configure' to perform a text mode configuration or 'plastic --configure' for graphical mode.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Unity.PlasticSCM.Editor.UI.UnityPlasticGuiMessage:LogMessage (string,string,Codice.Client.Common.GuiMessage/GuiMessageType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs:241)
+Unity.PlasticSCM.Editor.UI.UnityPlasticGuiMessage:Codice.Client.Common.GuiMessage.IGuiMessage.ShowMessage (string,string,Codice.Client.Common.GuiMessage/GuiMessageType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs:29)
+Codice.Client.Common.GuiMessage:ShowError (string)
+Unity.PlasticSCM.Editor.PlasticApp/<>c__DisplayClass23_0:<HandleLog>b__0 () (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/PlasticApp.cs:264)
+Unity.PlasticSCM.Editor.UI.GUIActionRunner:RunGUIAction (Unity.PlasticSCM.Editor.UI.GUIActionRunner/ActionDelegate) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/GUIActionRunner.cs:16)
+Unity.PlasticSCM.Editor.PlasticApp:HandleLog (string,string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/PlasticApp.cs:256)
+UnityEngine.Application:CallLogCallback (string,string,UnityEngine.LogType,bool)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<Unity.PlasticSCM.Editor.UVCSWindow> ()
+UnityEditor.EditorWindow:CreateWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,System.Type[])
+UnityEditor.EditorWindow:GetWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,bool,System.Type[])
+Unity.PlasticSCM.Editor.UI.ShowWindow:UVCS () (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/ShowWindow.cs:26)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:OnIfNeeded (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/SwitchUVCSPlugin.cs:30)
+Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider:OnActivate () (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/Settings/UVCSProjectSettingsProvider.cs:55)
+UnityEditor.VersionControl.VersionControlManager:Activate (string)
+
+(Filename: ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs Line: 241)
+
+NotConfiguredClientException: Unity VCS client is not correctly configured for the current user: Client config file C:\Users\KORISNIK\AppData\Local\plastic4\client.conf not found. Please execute 'cm configure' to perform a text mode configuration or 'plastic --configure' for graphical mode.
+  at Codice.Client.Common.ClientConfig.get_SafeData () [0x00034] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.ClientConfig.IsSymlinkSupportEnabledOnWindows () [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetPath (System.String path, System.Boolean preserveName, System.Boolean solveLastElement) [0x00069] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetSymLinkPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path, System.Boolean doPlatformGetSymLinkPath) [0x00014] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at PlasticGui.PlasticAPI.GetWorkspaceFromPath (System.String wkPath) [0x00007] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Unity.PlasticSCM.Editor.FindWorkspace.InfoForApplicationPath (System.String path, PlasticGui.IPlasticAPI plasticApi) [0x00011] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\FindWorkspace.cs:29 
+  at Unity.PlasticSCM.Editor.UVCSPlugin.Enable () [0x00045] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\UVCSPlugin.cs:169 
+  at Unity.PlasticSCM.Editor.UVCSWindow.OnEnable () [0x00075] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\UVCSWindow.cs:454 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected(Type, Boolean)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType(Type, Boolean)
+UnityEngine.ScriptableObject:CreateInstance(Type)
+UnityEngine.ScriptableObject:CreateInstance()
+UnityEditor.EditorWindow:CreateWindow(String, Type[])
+UnityEditor.EditorWindow:GetWindow(String, Boolean, Type[])
+Unity.PlasticSCM.Editor.UI.ShowWindow:UVCS() (at .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\UI\ShowWindow.cs:26)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:OnIfNeeded(UVCSPlugin) (at .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\SwitchUVCSPlugin.cs:30)
+Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider:OnActivate() (at .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\Settings\UVCSProjectSettingsProvider.cs:55)
+UnityEditor.VersionControl.VersionControlManager:Activate(String)
+
+(Filename: ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/FindWorkspace.cs Line: 29)
+
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 36.147 seconds
+	Project init time: 				28.214 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		1.056 seconds
+		Asset Database init time: 		1.843 seconds
+		Global illumination init time: 	0.026 seconds
+		Assemblies load time: 			5.786 seconds
+		Unity extensions init time: 	0.142 seconds
+		Asset Database refresh time: 	13.311 seconds
+	Scene opening time: 			6.464 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794460249154,"processId":37716,"projectLoad":36.147026,"projectInit":28.2142995,"templateInit":0.0,"packageManagerInit":1.0561235,"assetDatabaseInit":1.8428682,"globalIlluminationInit":0.0258554,"assembliesLoad":5.7861945,"unityExtensionsInit":0.1422292,"assetDatabaseRefresh":13.3107726,"sceneOpening":6.4642621}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794460249156,"processId":37716,"editorVersion":"6000.6.8f1 (237b6593792b)","branch":"6000.6/respin/6000.6.8f1-b6138bef9630","buildType":"Release","platform":"Windows"}
+
+Asset Pipeline Refresh (id=7add43a8371769b4eaf2edbd2d090efb): Total: 0.409 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=404 ms
+		Asset DB Callback time: managed=0 ms, native=3 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1121, non-scripts=2774
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.541ms
+	InvokePackagesCallback: 8.435ms
+	ApplyChangesToAssetFolders: 1.914ms
+	Collect global state as custom dependencies: 5.632ms
+	ProcessAssetsWithTransientArtifactChanges: 0.410ms
+	CategorizeAssets: 140.022ms
+	CompileScripts: 0.123ms
+	ImportOutOfDateAssets: 4.712ms (0.751ms without children)
+		ReloadNativeAssets: 0.118ms
+		UnloadImportedAssets: 0.656ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.989ms
+		ImportSchedulerStart: 1.191ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.374ms
+	UnloadStreamsBegin: 11.616ms
+	PersistCurrentRevisions: 0.562ms
+	Untracked: 134.439ms
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Unity Version Control: NotConfiguredClientException: Unity VCS client is not correctly configured for the current user: Client config file C:\Users\KORISNIK\AppData\Local\plastic4\client.conf not found. Please execute 'cm configure' to perform a text mode configuration or 'plastic --configure' for graphical mode.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Unity.PlasticSCM.Editor.UI.UnityPlasticGuiMessage:LogMessage (string,string,Codice.Client.Common.GuiMessage/GuiMessageType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs:241)
+Unity.PlasticSCM.Editor.UI.UnityPlasticGuiMessage:Codice.Client.Common.GuiMessage.IGuiMessage.ShowMessage (string,string,Codice.Client.Common.GuiMessage/GuiMessageType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs:29)
+Codice.Client.Common.GuiMessage:ShowError (string)
+Unity.PlasticSCM.Editor.PlasticApp/<>c__DisplayClass23_0:<HandleLog>b__0 () (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/PlasticApp.cs:264)
+Unity.PlasticSCM.Editor.UI.GUIActionRunner:RunGUIAction (Unity.PlasticSCM.Editor.UI.GUIActionRunner/ActionDelegate) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/GUIActionRunner.cs:16)
+Unity.PlasticSCM.Editor.PlasticApp:HandleLog (string,string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/PlasticApp.cs:256)
+UnityEngine.Application:CallLogCallback (string,string,UnityEngine.LogType,bool)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEditor.VersionControl.VersionControlManager:Activate (string)
+UnityEditor.VersionControl.Provider:UpdateSettings ()
+UnityEditor.VersionControl.VersionControlManager:SetVersionControl (string)
+UnityEditor.VersionControl.VersionControlManager:ValidateVersionControlMode ()
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/UI/UnityPlasticGuiMessage.cs Line: 241)
+
+NotConfiguredClientException: Unity VCS client is not correctly configured for the current user: Client config file C:\Users\KORISNIK\AppData\Local\plastic4\client.conf not found. Please execute 'cm configure' to perform a text mode configuration or 'plastic --configure' for graphical mode.
+  at Codice.Client.Common.ClientConfig.get_SafeData () [0x00034] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.ClientConfig.IsSymlinkSupportEnabledOnWindows () [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetPath (System.String path, System.Boolean preserveName, System.Boolean solveLastElement) [0x00069] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetSymLinkPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path, System.Boolean doPlatformGetSymLinkPath) [0x00014] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at PlasticGui.PlasticAPI.GetWorkspaceFromPath (System.String wkPath) [0x00007] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Unity.PlasticSCM.Editor.FindWorkspace.InfoForApplicationPath (System.String path, PlasticGui.IPlasticAPI plasticApi) [0x00011] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\FindWorkspace.cs:29 
+  at Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider.ReloadSettings () [0x0001f] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\Settings\UVCSProjectSettingsProvider.cs:88 
+  at Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider.OnEnable () [0x0001b] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\Settings\UVCSProjectSettingsProvider.cs:44 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected(Type, Boolean)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType(Type, Boolean)
+UnityEngine.ScriptableObject:CreateInstance(Type)
+UnityEditor.VersionControl.VersionControlManager:Activate(String)
+UnityEditor.VersionControl.Provider:UpdateSettings_Injected()
+UnityEditor.VersionControl.Provider:UpdateSettings()
+UnityEditor.VersionControl.VersionControlManager:SetVersionControl(String)
+UnityEditor.VersionControl.VersionControlManager:ValidateVersionControlMode()
+UnityEditor.EditorApplication:Internal_CallDelayFunctions()
+
+(Filename: ./Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4/Editor/FindWorkspace.cs Line: 29)
+
+Failed to activate version control system 'Unity Version Control': Codice.Client.Common.NotConfiguredClientException: Unity VCS client is not correctly configured for the current user: Client config file C:\Users\KORISNIK\AppData\Local\plastic4\client.conf not found. Please execute 'cm configure' to perform a text mode configuration or 'plastic --configure' for graphical mode.
+  at Codice.Client.Common.ClientConfig.get_SafeData () [0x00034] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.ClientConfig.IsSymlinkSupportEnabledOnWindows () [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetPath (System.String path, System.Boolean preserveName, System.Boolean solveLastElement) [0x00069] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.Common.Platform.GetSymLinkPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path, System.Boolean doPlatformGetSymLinkPath) [0x00014] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Codice.Client.BaseCommands.BaseCommandsImpl.GetWorkspaceFromPath (System.String path) [0x00001] in <fb1d2a5292364582990246a47acfa372>:0 
+  at PlasticGui.PlasticAPI.GetWorkspaceFromPath (System.String wkPath) [0x00007] in <fb1d2a5292364582990246a47acfa372>:0 
+  at Unity.PlasticSCM.Editor.FindWorkspace.InfoForApplicationPath (System.String path, PlasticGui.IPlasticAPI plasticApi) [0x00011] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\FindWorkspace.cs:29 
+  at Unity.PlasticSCM.Editor.UVCSPlugin.Enable () [0x00045] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\UVCSPlugin.cs:169 
+  at Unity.PlasticSCM.Editor.SwitchUVCSPlugin.On (Unity.PlasticSCM.Editor.UVCSPlugin uvcsPlugin) [0x00005] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\SwitchUVCSPlugin.cs:14 
+  at Unity.PlasticSCM.Editor.SwitchUVCSPlugin.OnIfNeeded (Unity.PlasticSCM.Editor.UVCSPlugin uvcsPlugin) [0x00007] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\SwitchUVCSPlugin.cs:25 
+  at Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider.OnActivate () [0x0000e] in .\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Editor\Settings\UVCSProjectSettingsProvider.cs:55 
+  at UnityEditor.VersionControl.VersionControlManager.Activate (System.String name) [0x00059] in <7d61c464f7644eb28141e906ab9c21ba>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.VersionControl.VersionControlManager:Activate (string)
+UnityEditor.VersionControl.Provider:UpdateSettings ()
+UnityEditor.VersionControl.VersionControlManager:SetVersionControl (string)
+UnityEditor.VersionControl.VersionControlManager:ValidateVersionControlMode ()
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+Request Asset Garbage Collect because used heap size increased from 0.52 GB to 0.80 GB, exceeding the threshold of 256.0 MB.
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+Version Control: UpdateSettings: Unknown version control plugin: Unity Version Control
+Created GICache directory at C:/Users/KORISNIK/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.103s, timestamps: [36.713 - 36.816]
+Unloading 77 unused Assets / (16.8 MB). Loaded Objects now: 22044.
+Memory consumption went from 0.80 GB to 0.78 GB.
+Total: 246.384400 ms (FindLiveObjects: 25.323300 ms CreateObjectMapping: 4.441000 ms MarkObjects: 161.007700 ms  DeleteObjects: 51.523100 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/KORISNIK/Projects/SEPSIMULATOR/Logs/AssetImportWorkerHW1.log
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "EvYf84Kj"... (expires: 2026-11-12T07:07:49Z)
+Worker ready: AssetImportWorkerHW0 0
+UPID Received 'bffcc981-55ec-4d96-9721-38d1f83369f7'.
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=fd090825a21504747b5ab01cf3fab06b): Total: 0.039 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Starting new worker id: 2 with log in C:/Users/KORISNIK/Projects/SEPSIMULATOR/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: c206d02e77fbc3148a269062ea0e8069 - Path: Assets/school/DemoScene/all_objects.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5d9fbe4365b003d01df520f77004b7ee') in 0.356563 seconds
+[Worker0] Imported GUID: 5ba921ec07ce6984a8dd0eb297b17d99 - Path: Assets/school/DemoScene/all_objects - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '855fc2e226cd9739be37eea70543dcf1') in 0.0355376 seconds
+[Worker0] Imported GUID: 5ef25987a4faad44ca7b3e9d7887c76c - Path: Assets/ChaseGame/Materials/mtl_npc_hair_06_020595137a0acce46828c3c8673bf80c.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd80bb74cb333553388edfa5d582c490b') in 0.0848062 seconds
+[Worker0] Imported GUID: f24813c1a23e91a4c9a025eff839ddb8 - Path: Assets/Scripts/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '747965a48db88871dff1cef6d7d18ac3') in 0.036389 seconds
+[Worker0] Imported GUID: 34cb8be4c6723b847b5009488877e7ae - Path: Assets/school/DemoScene/all_objectsSettings.lighting - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '94422dc2bc93db5b56cbdf5e79b69417') in 0.055761 seconds
+[Worker0] Imported GUID: 5a853491202d3a94a80203a700f5eab8 - Path: Assets/school/DemoScene/all_objects/LightingData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7fe960014e6ef6debaef16a377bccaf6') in 0.1358735 seconds
+[Worker0] Imported GUID: 2f176188c1b863c4d915e8cc4a5f1006 - Path: Assets/ChaseGame/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ddca6171395553fa0346c1e75e93b5d6') in 0.033147 seconds
+[Worker0] Imported GUID: 665ca0c19ee203e4c9135edc6fe5263d - Path: Assets/Scripts/BubbaChaser.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9679149f86468578f1bf014fb316de36') in 0.030183 seconds
+[Worker0] Imported GUID: 01a22a13de5b52b40adfa0839d6db18e - Path: Assets/ChaseGame/Materials/mtl_npc_hmn_body_01m_01_01_449c892dcfb7f3a43a50b2a52522498e.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd67e1e8b126f644199759d970c40bcf8') in 0.220595 seconds
+[Worker0] Imported GUID: 1d2a2791d98ebf14ba09ed80e2f52b1d - Path: Assets/ChaseGame - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '89da20a67bb834082ae47145b88ca287') in 0.0323486 seconds
+[Worker0] Imported GUID: ba641b76542b02243a06228a07c7067e - Path: Assets/Editor/ChaseGameSceneSetup.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '563dee38b883b672c1aed4427f99a3fa') in 0.0414741 seconds
+[Worker0] Imported GUID: db5adf86fcbe2074696112cc6084bbc1 - Path: Assets/ChaseGame/Materials/mtl_npc_csl_shoe_01_00_01_6c23d507eabe8db40899481277eb9884.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a767fb4d9f72ae5fbeb9b7ac0d94e728') in 0.0482341 seconds
+[Worker0] Imported GUID: 4a88849321640e3468d156425dd40b0b - Path: Assets/ChaseGame/Materials/mtl_npc_csl_tshirt_00m_01_01bw_42e1c4e568819f94295a93832ab4233f.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e05fd426f8dd44c8cefbf00e4c453444') in 0.0604856 seconds
+[Worker0] Imported GUID: a88ef24577ee1cb4ea521c9e85860342 - Path: Assets/ChaseGame/Materials/1_30b92673b9b7ef44c9c11a474d9910c9.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c85217a44b6e68274ee5dde69b64d700') in 0.047137 seconds
+[Worker0] Imported GUID: bd8e41754c0bf1b499de481f59713af0 - Path: Assets/sepsimulator.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '35199996d6c41e375d0dd5a5e634b0df') in 0.1039823 seconds
+[Worker0] Imported GUID: eacb057f7b0c06c4b944fca062cf4f0d - Path: Assets/ChaseGame/Materials/mtl_npc_csl_pants_00m_01_01_98c54b9350e15544c9d651f145214e44.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4412844115ed1469e13da308d86aa3f0') in 0.0662369 seconds
+[Worker0] Imported GUID: 77d622f56acd1b447a486d81e845e16c - Path: Assets/Scripts/ChasePlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c2d33b0c5a8dc834f3e4750229c139a9') in 0.0419238 seconds
+[Worker0] Imported GUID: 9c95b481f519ca441bf7cf16a2e31862 - Path: Assets/ChaseGame/Materials/mtl_npc_hmn_face_01m_01_01_846a97d8aaab99b48880e1f033f3c564.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0ec22211d2a32a526a17219e09301c14') in 0.064491 seconds
+Worker ready: AssetImportWorkerHW2 2
+TrimDiskCacheJob: Current cache size 546mb
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+Failed to create agent because there is no valid NavMesh
+Runtime chase NavMesh built from 2124 meshes; triangulation vertices: 2060.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameManager:BuildRuntimeNavMesh () (at Assets/Scripts/GameManager.cs:54)
+GameManager:Awake () (at Assets/Scripts/GameManager.cs:21)
+
+(Filename: Assets/Scripts/GameManager.cs Line: 54)
+
+Problem detected while opening the Scene file: 'Assets/sepsimulator.unity'.
+Check the following logs for more details.
+Prefab instance problem: 'bus (2) (Missing Prefab with guid: 89e15e70adfc19f43bfd6c68dab897c0)'. 4 instances are missing the same Prefab Asset with guid 89e15e70adfc19f43bfd6c68dab897c0.
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            74.381 ms
+	Integration:            483.945 ms
+	Integration of assets:  0.867 ms
+	Thread Wait Time:       -0.049 ms
+	Total Operation Time:   559.145 ms
+MonoPathRemapper: Attempts to remap: 30095; Successful remaps: 14640
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\KORISNIK\Projects\SEPSIMULATOR\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/KORISNIK/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-KORISNIK-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-KORISNIK channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 000000000000A994, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000A9B0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000A994, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000A9B0, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3740
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794460384518,"processId":37716,"allocatedMemory":17490451,"memoryLabels":[{"Default":284505},{"Permanent":15516},{"NewDelete":71217},{"Thread":4218952},{"Manager":821088},{"VertexData":8},{"Geometry":824},{"Texture":24},{"Shader":871063},{"Material":132},{"GfxDevice":62056},{"GfxThread":39936},{"Animation":952},{"Audio":408},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":132216},{"Input":45280},{"JobScheduler":256},{"TextLib":26788},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1271576},{"BaseObject":49136},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":28188},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":488582},{"StaticString":3808},{"Utility":2674770},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":13755},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":267791},{"EditorUtility":674742},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4816295},{"AssetImporter":40},{"EditorGi":360},{"UnityConnect":36918},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":266},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12808},{"AssetReference":32},{"IPCStream":32}]}

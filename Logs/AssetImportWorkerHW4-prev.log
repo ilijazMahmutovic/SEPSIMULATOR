@@ -1,0 +1,982 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'sr' Physical Memory: 15836 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-11T16:02:39Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-KORISNIK" at "2026-11-11T16:02:39.1716697Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 31868, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.6.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              9cadc4d5fe5347799124b72cd2be8498
+  Correlation Id:          71759682adb6df8a5797010f24a60d28
+  External correlation Id: 3398039282864633400
+  Machine Id:              2XDAP1EhRuL1+CZ4NH82q3c3ifQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-KORISNIK" (connect: 0.00s, validation: 0.01s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-KORISNIK-notifications" at "2026-11-11T16:02:39.260773Z"
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW4
+-projectPath
+C:/Users/KORISNIK/Projects/SEPSIMULATOR
+-logFile
+Logs/AssetImportWorkerHW4.log
+-srvPort
+64224
+-parentPid
+15148
+-analyticsCloudUserId
+6872896050003
+-analyticsCloudProjectId
+bffcc981-55ec-4d96-9721-38d1f83369f7
+-analyticsLocalProjectId
+94efbc04ef5cc034ea34e38dbcf999f6
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+1c4288c4ffa0bb851be4881bec57b557e69dc785
+-cbmMachineId
+2XDAP1EhRuL1+CZ4NH82q3c3ifQ=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+6
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/KORISNIK/Projects/SEPSIMULATOR
+C:/Users/KORISNIK/Projects/SEPSIMULATOR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [5188]  Target information:
+
+Player connection [5188]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3780186658 [EditorId] 3780186658 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5RHLHQE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5188] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5188] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 6
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: aa32bb0621ba7be1f8057890b4656439
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 28.30 ms, found 3 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.8f1 (237b6593792b)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KORISNIK/Projects/SEPSIMULATOR/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        Intel(R) Graphics (ID=0x7d45)
+    Vendor:          Intel
+    VRAM:            9026 MB
+    App VRAM Budget: 8319 MB
+    Driver:          32.0.101.8831
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010738 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.868 seconds
+Domain Reload Profiling: 5390ms
+	BeginReloadAssembly (729ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (73ms)
+	initialDomainReloadingComplete (345ms)
+	LoadAllAssembliesAndSetupDomain (1352ms)
+		LoadAssemblies (643ms)
+		TypeCache.Refresh (939ms)
+			TypeCache.ScanAssembly (847ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (2871ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (397ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (1683ms)
+			EditorAssembliesLoaded (4ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872896050003-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.776 seconds
+Domain Reload Profiling: 5062ms
+	BeginReloadAssembly (874ms)
+		DisableScriptedObjects (31ms)
+		CreateAndSetChildDomain (163ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (246ms)
+	LoadAllAssembliesAndSetupDomain (2091ms)
+		LoadAssemblies (1610ms)
+		TypeCache.Refresh (468ms)
+			TypeCache.ScanAssembly (431ms)
+		AnalyzeDomain (117ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1778ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (8ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (698ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (17ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4658 unused Assets / (10.6 MB). Loaded Objects now: 5504.
+Memory consumption went from 303.6 MB to 292.9 MB.
+Total: 14.801100 ms (FindLiveObjects: 1.793000 ms CreateObjectMapping: 0.793200 ms MarkObjects: 6.320100 ms  DeleteObjects: 5.574100 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:56.6035975Z
+  Time since last request: 3782.47206289999986 seconds.
+  importAddress: GUID: ab356a3ff7271e645b168f028442b1a2 - Path: Assets/npc_casual_set_00/Mesh/npc_csl_tshirt_00f.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ab356a3ff7271e645b168f028442b1a2 - Path: Assets/npc_casual_set_00/Mesh/npc_csl_tshirt_00f.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ab356a3ff7271e645b168f028442b1a2' -> (Import Result ID: 'db0139520f696376017988ff4c70a645') in 0.228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=483a3de21d3778244ebd847412ab06a7 DependenciesID=f3581d740ebb650cee00ec9994057494 StaticDependenciesID=6bb6b3dce19781a2f02af2a119c38db2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:56.8499133Z
+  Time since last request: 0.000523 seconds.
+  importAddress: GUID: a628400937de95a4292762abb43a2481 - Path: Assets/npc_casual_set_00/Mesh/npc_haircut_a_03.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a628400937de95a4292762abb43a2481 - Path: Assets/npc_casual_set_00/Mesh/npc_haircut_a_03.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a628400937de95a4292762abb43a2481' -> (Import Result ID: 'bdb3fb03c59a31eabb68d1475cd8e7d1') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff7a8087cedb4a6cb5e23251b2901deb DependenciesID=08d4f1e07c738d9771e7ceef431e6e3b StaticDependenciesID=5869068e4dbe182e2a249e653352101a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:56.8898627Z
+  Time since last request: 0.0007177 seconds.
+  importAddress: GUID: 85699f6422c4ccc40b78e39a08236f97 - Path: Assets/npc_casual_set_00/Prefabs/npc_hmn_01m.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 85699f6422c4ccc40b78e39a08236f97 - Path: Assets/npc_casual_set_00/Prefabs/npc_hmn_01m.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 85699f6422c4ccc40b78e39a08236f97' -> (Import Result ID: 'd7135674fe98bb98d129835019a2d6d6') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=355314350d20fa2ec33e74b4da1c29c9 DependenciesID=3bef15443fef0d13197461d166e2c2ae StaticDependenciesID=64a43a8de656c045bb370f7787315645 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 279
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:56.9454886Z
+  Time since last request: 0.0000368 seconds.
+  importAddress: GUID: db61a297e075bf74183625e11b7ed82c - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_tshirt_00f_torso.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: db61a297e075bf74183625e11b7ed82c - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_tshirt_00f_torso.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: db61a297e075bf74183625e11b7ed82c' -> (Import Result ID: '895307f22cf8507d8e66955323d5b4ae') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3c46e261fb26967f19c4f80c472d3f1 DependenciesID=bbf7f15eec6de9ba322974560b18805f StaticDependenciesID=f4c591fae224cf73a12dd3a00e20dacc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:56.9721339Z
+  Time since last request: 0.0005898 seconds.
+  importAddress: GUID: 597bf9fe194609d419b66e3f80baeaf9 - Path: Assets/npc_casual_set_00/Scenes/LightingData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 597bf9fe194609d419b66e3f80baeaf9 - Path: Assets/npc_casual_set_00/Scenes/LightingData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 479]
+
+Imported 'GUID: 597bf9fe194609d419b66e3f80baeaf9' -> (Import Result ID: '08b81d998aebd6d9331cbd49f2b2c00e') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b0b266b718a622c946ee7a9683836f8 DependenciesID=df19a9fabcdb2e35a81668756e1ab550 StaticDependenciesID=9de6efb997779cba9a29f6832898ae13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:56.998795Z
+  Time since last request: 0.001335 seconds.
+  importAddress: GUID: ce2548dbc81851b488075bf19a61322a - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_00_character_02m_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ce2548dbc81851b488075bf19a61322a - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_00_character_02m_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ce2548dbc81851b488075bf19a61322a' -> (Import Result ID: 'c985985c72dbce652d788c966068f973') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40bf9358d0633bd2e62dc974aafb150e DependenciesID=c393754b528948372c2028c1e03432e5 StaticDependenciesID=ae70641d0a2020a28bda733609e71cb3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 881
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.0409632Z
+  Time since last request: 0.0000258 seconds.
+  importAddress: GUID: e9cb1387be7fac94686232ae21d4cd2a - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00m_01_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e9cb1387be7fac94686232ae21d4cd2a - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00m_01_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e9cb1387be7fac94686232ae21d4cd2a' -> (Import Result ID: '9ac6cf0cc51a9f352f27f1730e3b1ab6') in 0.069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b30fef5a6a35cef2de25aff1a6b211ff DependenciesID=5c1fb28c63772513081e4fac3546f154 StaticDependenciesID=4082ff94e533730ced5b29223c521fdf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.1197829Z
+  Time since last request: 0.0000423 seconds.
+  importAddress: GUID: 3d1b8038c5bef6f4fa9310db8e074676 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_tshirt_00m_01_02bw.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d1b8038c5bef6f4fa9310db8e074676 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_tshirt_00m_01_02bw.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d1b8038c5bef6f4fa9310db8e074676' -> (Import Result ID: 'fced3e381d3f8d2aca37bb8cc836014b') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9dc574b0626b4edf0dab851fbb2c5a3 DependenciesID=afdb6914a94b3e090a1cd168539bf5a0 StaticDependenciesID=45cb41b0bd91f4f869870dee956bde9a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.1422881Z
+  Time since last request: 0.0000387 seconds.
+  importAddress: GUID: e55bb1743f855884c9ba1cfa3cc30a1f - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_upperbody2.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e55bb1743f855884c9ba1cfa3cc30a1f - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_upperbody2.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e55bb1743f855884c9ba1cfa3cc30a1f' -> (Import Result ID: '96e9912dcce2a9b00f33a8a76cda05dd') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=221846d0952d7e3eb849f75aeae8b990 DependenciesID=6bf5d9e51c14d95c2ab66885558040b7 StaticDependenciesID=562644f792e64817c7220b004319dc1d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.1836698Z
+  Time since last request: 0.0001965 seconds.
+  importAddress: GUID: 7bcbccde7fe242846b15f914e78e6b8d - Path: Assets/npc_casual_set_00/Mesh/npc_csl_shoe_03.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7bcbccde7fe242846b15f914e78e6b8d - Path: Assets/npc_casual_set_00/Mesh/npc_csl_shoe_03.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7bcbccde7fe242846b15f914e78e6b8d' -> (Import Result ID: 'fdf5ce641d5243859be85fee2c13ef83') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e702edc23e9e01d4ab9e69d4f12d116 DependenciesID=ad5b9d1f9a5504bb35f76325b399fb24 StaticDependenciesID=7690e7d19342f4fcbdc19889bae40de2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.2219594Z
+  Time since last request: 0.0000327 seconds.
+  importAddress: GUID: 79b4ebd3efd28714bad2af1e7ab6a15a - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 79b4ebd3efd28714bad2af1e7ab6a15a - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 79b4ebd3efd28714bad2af1e7ab6a15a' -> (Import Result ID: 'ac25977fd7ef7635a3dd88d7faacfc20') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7421a3de7b792fc0e1659dd26049b0c6 DependenciesID=1d162f3680d3dfcd556f6d874dbc047b StaticDependenciesID=07073c257244345f495e5138969c67d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.2472413Z
+  Time since last request: 0.001635 seconds.
+  importAddress: GUID: e7b88de56215974438a88df78de89542 - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_01_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e7b88de56215974438a88df78de89542 - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_01_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e7b88de56215974438a88df78de89542' -> (Import Result ID: '488ec3ee5beb45a0995b9d1be9852bf5') in 0.059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a0b696c7d781de816a979399145b697 DependenciesID=6da62545e8afa35e59fc8b6e3be2e62f StaticDependenciesID=83143b66331cc806d7bad02573c54ad7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.5045761Z
+  Time since last request: 0.1853822 seconds.
+  importAddress: GUID: de898c3552356b74382c3b873cf52025 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_pants_00m_01_01bw.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: de898c3552356b74382c3b873cf52025 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_pants_00m_01_01bw.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: de898c3552356b74382c3b873cf52025' -> (Import Result ID: '662bb5585273688beb065982cf294492') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb9dc8b7b6320d68981221dc4bb1a545 DependenciesID=d69bcffcba534332620fe3f885caee16 StaticDependenciesID=79cd1378163b958fa56a042400fa273e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.5403923Z
+  Time since last request: 0.0010028 seconds.
+  importAddress: GUID: 684bb0841d7a2bf44ac488fe561e2e50 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_pants_00m_01_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 684bb0841d7a2bf44ac488fe561e2e50 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_pants_00m_01_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 684bb0841d7a2bf44ac488fe561e2e50' -> (Import Result ID: '15f236a27e486abdeb778413fcfa781e') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f89b3bc5f96d7442f880d0f5873a1d4 DependenciesID=5eed112ce9218e71af94ce19bc3e0252 StaticDependenciesID=378321f24b296fcc1fe907262d2cf920 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.5714572Z
+  Time since last request: 0.0003601 seconds.
+  importAddress: GUID: 4662851c9c3c84e458cf841dfb00798b - Path: Assets/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_01_n.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4662851c9c3c84e458cf841dfb00798b - Path: Assets/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_01_n.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4662851c9c3c84e458cf841dfb00798b' -> (Import Result ID: 'e42226e76365a1a4444859affb65678b') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=943b38411a96b79919b355903bd7e8f6 DependenciesID=038782ee1419e1b1b5def62c2c84829c StaticDependenciesID=ec13ce5377663b617626cc5d2432b7ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.5938154Z
+  Time since last request: 0.0007062 seconds.
+  importAddress: GUID: a3c584e03a04b21448a3251b004db564 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_pants_00f_01_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a3c584e03a04b21448a3251b004db564 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_pants_00f_01_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a3c584e03a04b21448a3251b004db564' -> (Import Result ID: 'dce0f8b7f318becfac78f3869a7da6ee') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e18a0933add339ac234c01a64903fde9 DependenciesID=ebf2ff68795fd040a2e012f6a8306cdd StaticDependenciesID=54d8ae5498fbb26fdee995cc342d8463 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.6273519Z
+  Time since last request: 0.0005339 seconds.
+  importAddress: GUID: 08a46ab82c6f0994b9129b9343c5af04 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_body_01f_01_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 08a46ab82c6f0994b9129b9343c5af04 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_body_01f_01_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 08a46ab82c6f0994b9129b9343c5af04' -> (Import Result ID: '77acd0c7ee09199537d2c0115d841fce') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0218330aa08ee2b92aa99dc2fa17d4a9 DependenciesID=50b223ebf879500b38712f9eea5a29a3 StaticDependenciesID=21a930899ad055ed3e18a873bcb44c22 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.6569461Z
+  Time since last request: 0.0005405 seconds.
+  importAddress: GUID: 131dd926ddf4bf24dab3969f1e0563e7 - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_02_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 131dd926ddf4bf24dab3969f1e0563e7 - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_02_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 131dd926ddf4bf24dab3969f1e0563e7' -> (Import Result ID: '63220cc6f8b7051acd6ecaedd2924c27') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10113edb94bc13e7149f9766945b3b79 DependenciesID=2b9ee55c972ef993714034b8dcbeffc9 StaticDependenciesID=f8ac6192e37ac2c3af53f420983b219c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.6836016Z
+  Time since last request: 0.0010771 seconds.
+  importAddress: GUID: 708a859b870fb884e8835baa5bb8f5f8 - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_arms3.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 708a859b870fb884e8835baa5bb8f5f8 - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_arms3.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 708a859b870fb884e8835baa5bb8f5f8' -> (Import Result ID: 'ac4ca1c0c58c3f87f7492d279314e29f') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d0befb57e86a052a469d781aa9265c3 DependenciesID=bb25c3bfe52d9af180c8b59ad06a85ad StaticDependenciesID=a8366945c11c75f080e53f8b838f5355 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.7064643Z
+  Time since last request: 0.0000466 seconds.
+  importAddress: GUID: 4c7b7284ce19c474f90bd488236e3a32 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_lowerbody5.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4c7b7284ce19c474f90bd488236e3a32 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_lowerbody5.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4c7b7284ce19c474f90bd488236e3a32' -> (Import Result ID: '67d436a8869e4fd8c7e788c81275594a') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2653b28451301a181d1b06a672cf7afb DependenciesID=8b64d28691fb9ccbdffe17e7d6a50ce9 StaticDependenciesID=7d056cd6f42a2f8d70db34a34a3e336a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.7340852Z
+  Time since last request: 0.0002274 seconds.
+  importAddress: GUID: 40672cbd01888b84799f26b82584b694 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_04_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 40672cbd01888b84799f26b82584b694 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_04_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 40672cbd01888b84799f26b82584b694' -> (Import Result ID: '922c395d3c98e94de319fc00841f9849') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5d1efab6f446f4b23257615138a0fa0 DependenciesID=13c94b2a91d34dc176af025801b8d8cd StaticDependenciesID=fa77311d1dfa53d053414db8f98f17d3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.7573446Z
+  Time since last request: 0.0012259 seconds.
+  importAddress: GUID: 84e86a3c0e83c1747814a3a5ecf8fff6 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_shoe_01_00_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 84e86a3c0e83c1747814a3a5ecf8fff6 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_shoe_01_00_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 84e86a3c0e83c1747814a3a5ecf8fff6' -> (Import Result ID: '38c87e83aed31bf1f3151c62d52f8cdd') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3f0745b880a51e18ff0e03666a050b9 DependenciesID=de90425031e907baca22b4b76af14ce8 StaticDependenciesID=bf0cdb33d293d4038ccda75a487cc8b7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.7795106Z
+  Time since last request: 0.0007559 seconds.
+  importAddress: GUID: 90f2dd1b34af2574a90756696b6db3df - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_arms4.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 90f2dd1b34af2574a90756696b6db3df - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_arms4.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 90f2dd1b34af2574a90756696b6db3df' -> (Import Result ID: '58f88700fe2f7b289be324670b796f5b') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08278a965e1dbfdb32ae58b7923837fc DependenciesID=fa5130c1731a558ea7c92404859831a0 StaticDependenciesID=697ed41fb8b15e286924999f1000a6ef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.8072582Z
+  Time since last request: 0.0000842 seconds.
+  importAddress: GUID: 20927cedda86f804ebca534940269c90 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_arms3.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 20927cedda86f804ebca534940269c90 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_arms3.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 20927cedda86f804ebca534940269c90' -> (Import Result ID: '44edf81a8538b2bce6bf569cd81aee2d') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9cdb9893e4cdd9f1b6503bb171f882c DependenciesID=64990832bbeeeb5192b87a3414b2f4a2 StaticDependenciesID=84b4415f70bb07941ae721f0b37b4796 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.8396767Z
+  Time since last request: 0.0006728 seconds.
+  importAddress: GUID: 0c18c169b8ca5154da79cf0b54363d49 - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_torso1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0c18c169b8ca5154da79cf0b54363d49 - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_torso1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0c18c169b8ca5154da79cf0b54363d49' -> (Import Result ID: '3f16afc873fc685fd740ce3a7a7e72c8') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48bc380fb76a3d0f4260732dc031cf11 DependenciesID=66d0853d0620aca8c0f75399c6b3b5d9 StaticDependenciesID=6a241da47aa6e5fc436c0820cfe992f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.8627993Z
+  Time since last request: 0.00005 seconds.
+  importAddress: GUID: 853df0916383f10458aa98d829834420 - Path: Assets/npc_casual_set_00 - Importer: PreviewImporter
+Importing 'GUID: 853df0916383f10458aa98d829834420 - Path: Assets/npc_casual_set_00 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 853df0916383f10458aa98d829834420' -> (Import Result ID: 'a1a9715034064e4ef2d83896f7929e86') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4eeb8a5be225f3bc9bfb57e0de8d9871 DependenciesID=9e26522ae29f9b9baac91bf24c674957 StaticDependenciesID=d081199feb88591b165703d8713052e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.88258Z
+  Time since last request: 0.0017453 seconds.
+  importAddress: GUID: 8a30d4e872885ea40b2aea36192caa2e - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_head1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8a30d4e872885ea40b2aea36192caa2e - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_head1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8a30d4e872885ea40b2aea36192caa2e' -> (Import Result ID: 'd83f933c460dcf5e717e8eca93473699') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a64e155721d9337af299ddac78be0c54 DependenciesID=f391f6203fcf4568f1671dccb7f35562 StaticDependenciesID=90606f157d4c9a8cc092cf69f43ea0c9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.9091011Z
+  Time since last request: 0.0001625 seconds.
+  importAddress: GUID: 19a35c6c51120bb4ba2705479096ae22 - Path: Assets/npc_casual_set_00/Textures/npc_hair_01_d.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 19a35c6c51120bb4ba2705479096ae22 - Path: Assets/npc_casual_set_00/Textures/npc_hair_01_d.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 19a35c6c51120bb4ba2705479096ae22' -> (Import Result ID: '140e309849b8d3269f4a61911475c25c') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcb19024fab1d6f5cb3a5e9299866644 DependenciesID=ef3410d1edf7376cf54a553469567208 StaticDependenciesID=b1662895cb9edbab9f497663c9386e9a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.9295572Z
+  Time since last request: 0.0006917 seconds.
+  importAddress: GUID: 7e187bea2382b2f48a401987e34fe7eb - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7e187bea2382b2f48a401987e34fe7eb - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7e187bea2382b2f48a401987e34fe7eb' -> (Import Result ID: '6add97dc9aa1a483f7bb80cbbe3688c2') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9aebdabb5730d3fda85f816dc9558014 DependenciesID=55326dc1761a4f44ad6c98676d92e647 StaticDependenciesID=a8de0b9c7737cabafeae5a2304b9196c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.9622104Z
+  Time since last request: 0.0006893 seconds.
+  importAddress: GUID: e1fd861de0576ea4b853e2ec1b55cf1f - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_head2.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e1fd861de0576ea4b853e2ec1b55cf1f - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_head2.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e1fd861de0576ea4b853e2ec1b55cf1f' -> (Import Result ID: 'c9ef6824c80003969bedfe0161971d44') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a62296cf98adbde54847a4e57113375a DependenciesID=c2e0673d3b9c654b569af5a08b08e75f StaticDependenciesID=ab3729bb8130d7679e96ecb7973dd872 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:57.9855106Z
+  Time since last request: 0.0005063 seconds.
+  importAddress: GUID: c30c796b2f8b40c4b85b332e50c27792 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01m_01_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c30c796b2f8b40c4b85b332e50c27792 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01m_01_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c30c796b2f8b40c4b85b332e50c27792' -> (Import Result ID: '95411f64f525f82671f59a1d1583890a') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00b581a24fb9aa28942e625168d79dde DependenciesID=c05ffe5a3870fb94cf059cc6e7105aae StaticDependenciesID=43b201dc60bd3ad7f987cc5186e01c59 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.0121011Z
+  Time since last request: 0.0008043 seconds.
+  importAddress: GUID: cc3a552e22acdf543afae8eabd83dc6b - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cc3a552e22acdf543afae8eabd83dc6b - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cc3a552e22acdf543afae8eabd83dc6b' -> (Import Result ID: 'fc686927ccb6c220cd7123f287d09b0e') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=110b7d4285be95df54d8a60f296d0866 DependenciesID=567cc96eb2606e8568d425413766d209 StaticDependenciesID=78eb55cda831d2495818cb3fa1a52167 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.0361324Z
+  Time since last request: 0.0008186 seconds.
+  importAddress: GUID: 894c62f1182d36f46bb0eae99f1a6d7b - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_04_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 894c62f1182d36f46bb0eae99f1a6d7b - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_04_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 894c62f1182d36f46bb0eae99f1a6d7b' -> (Import Result ID: '2c4e39356de864663c12d7e72d8d37ca') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9981fa88dd56869e1b1ae9a19f72af8 DependenciesID=7dcb52fc72cce10b345b89149a0fb1ea StaticDependenciesID=c3e05960e15ad914649c991775977803 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.0540379Z
+  Time since last request: 0.0005277 seconds.
+  importAddress: GUID: d4e01967ad2c2cf4680f2a8c764693fe - Path: Assets/npc_casual_set_00/Textures/npc_csl_tshirt_00m_01_02bw_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d4e01967ad2c2cf4680f2a8c764693fe - Path: Assets/npc_casual_set_00/Textures/npc_csl_tshirt_00m_01_02bw_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d4e01967ad2c2cf4680f2a8c764693fe' -> (Import Result ID: '3bfc7b8d895895878c2a6456a496bfd5') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e4e536dcd821fbfda6eb511e7072ed0 DependenciesID=c1c8983a40843ce103ec9dd7ecf17da6 StaticDependenciesID=91b7bfedc6763bfc0b51bc092dbf31ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.0699885Z
+  Time since last request: 0.0004224 seconds.
+  importAddress: GUID: 2fc1e1ab6606797449a643028e8c5c08 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2fc1e1ab6606797449a643028e8c5c08 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2fc1e1ab6606797449a643028e8c5c08' -> (Import Result ID: '5a6b959aa8d4b151763a69bf9552b68c') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=769748a31c6f03472634d17809f674c5 DependenciesID=fdd8abca0052135bcc5ad49809c9f0d1 StaticDependenciesID=a8d8cb37414b02acf67fd4a90e1dd74e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.1421447Z
+  Time since last request: 0.0502352 seconds.
+  importAddress: GUID: 4470fd6ad7a6cd242a320dd977c80fc9 - Path: Assets/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00m_01_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4470fd6ad7a6cd242a320dd977c80fc9 - Path: Assets/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00m_01_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4470fd6ad7a6cd242a320dd977c80fc9' -> (Import Result ID: 'd586e91bfb66ce26008d980dd40d239e') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb0ee614e8b8acd5006387cd42be0be7 DependenciesID=d182ccb12ec13bbe5fdb65694809f887 StaticDependenciesID=c19dd74def6a2207393c262460657deb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.158922Z
+  Time since last request: 0.0012873 seconds.
+  importAddress: GUID: 8b1826be6f5a7ed4ea8e2e92757376cc - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_01bw_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8b1826be6f5a7ed4ea8e2e92757376cc - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_01bw_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8b1826be6f5a7ed4ea8e2e92757376cc' -> (Import Result ID: '3df57fa199b705fa2ae8f51970fe9b2e') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a9d47a0775c85d18efeed67c60c4b22 DependenciesID=4a1a5de2f04bd88fb5a9c720a4d9effb StaticDependenciesID=c75d7db581cdc3b1c663eb9e9bff3f4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.1860033Z
+  Time since last request: 0.0007781 seconds.
+  importAddress: GUID: f090d3c285e2e954dabf02b93230d025 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_parts.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f090d3c285e2e954dabf02b93230d025 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_parts.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f090d3c285e2e954dabf02b93230d025' -> (Import Result ID: 'ad06fbce06044a78f3628e401a409c7a') in 0.279 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae2967e9555fd4df671fbe8373375bac DependenciesID=cfff9f70f6acf818bc2dc6db7ac8fa93 StaticDependenciesID=e413c963c736f40c9d15cd7eae4533c9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 947
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.4778399Z
+  Time since last request: 0.0000359 seconds.
+  importAddress: GUID: b49cfe8b1c7194f42b8ca6c0aea13cdc - Path: Assets/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b49cfe8b1c7194f42b8ca6c0aea13cdc - Path: Assets/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b49cfe8b1c7194f42b8ca6c0aea13cdc' -> (Import Result ID: '5a0dd97c7d50ffb9068227f3e2abc38c') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7261d03ea169955293f986ca8a84484c DependenciesID=72c16ad26195e983b445446293054e16 StaticDependenciesID=acc112a103741b711407b2c80229b591 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.5154688Z
+  Time since last request: 0.0006673 seconds.
+  importAddress: GUID: cca7ca7fef4016648a7396ddd83e4967 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_00_character_01f_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cca7ca7fef4016648a7396ddd83e4967 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_00_character_01f_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cca7ca7fef4016648a7396ddd83e4967' -> (Import Result ID: 'db149bb3038a804b8318914efa9bf4b1') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d47aada97eb3a629aa7cf6f2072241d8 DependenciesID=13e86a6209a0eeafa330a964d373bf2c StaticDependenciesID=49311be3136c95dca37ebe764e47919f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 680
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.5565052Z
+  Time since last request: 0.0000458 seconds.
+  importAddress: GUID: 311ae7a211bbedf4386254d0f4e5239d - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 311ae7a211bbedf4386254d0f4e5239d - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 311ae7a211bbedf4386254d0f4e5239d' -> (Import Result ID: 'f1ecf50789d5b4b0a5aebd899e13066e') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73b4d5a1dd6f1f7852fa86a0f9802c52 DependenciesID=9c7877188d11a9b35e7499bc6ca8324d StaticDependenciesID=28aa953a942b6464e5775745da2a9653 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.622452Z
+  Time since last request: 0.0005905 seconds.
+  importAddress: GUID: 28cd16a11a419304098bf41cadfb4f5e - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 28cd16a11a419304098bf41cadfb4f5e - Path: Assets/npc_casual_set_00/Textures/npc_csl_pants_00f_01_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 28cd16a11a419304098bf41cadfb4f5e' -> (Import Result ID: '60bb4b74ca6de1dff2675dfba6fac4db') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=daade8dcc01d6044f0aa021266863f70 DependenciesID=60228ca15c546b239a1ea5b7d7525734 StaticDependenciesID=dd0f411787685176fbfd9d19c5dd11fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.6402901Z
+  Time since last request: 0.0006021 seconds.
+  importAddress: GUID: 449c892dcfb7f3a43a50b2a52522498e - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_body_01m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 449c892dcfb7f3a43a50b2a52522498e - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_body_01m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 449c892dcfb7f3a43a50b2a52522498e' -> (Import Result ID: 'cff57de7495a3216424caa26e14069e2') in 0.053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca14c8f719f335f9c72971f636c89052 DependenciesID=8fd3b43e55acfefce109a960be0cd1f6 StaticDependenciesID=31cd5d03ad5752bd5d81650108e78af7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.7047858Z
+  Time since last request: 0.000856 seconds.
+  importAddress: GUID: 6754abc2a28f58846be150a3e8c76935 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6754abc2a28f58846be150a3e8c76935 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6754abc2a28f58846be150a3e8c76935' -> (Import Result ID: '9e9bbc340373e85bd8c356191f80c58b') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=013b5238230ce49d6efa4afdb0296746 DependenciesID=dbe912431325b0e3a47bfbdb49608252 StaticDependenciesID=b1621417924a7475317b28caf86e8ca6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.7414985Z
+  Time since last request: 0.0011595 seconds.
+  importAddress: GUID: fc023bb6085efd74cb304dd227c6808f - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fc023bb6085efd74cb304dd227c6808f - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fc023bb6085efd74cb304dd227c6808f' -> (Import Result ID: '5302cbba553682281837525ca94f0681') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54033895c670d2db5de19939ba9b1961 DependenciesID=6c8a20d59e25bbf06529018c7399b6e1 StaticDependenciesID=9a7690c4f02d622b3bf9e263e4ae03fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.7905198Z
+  Time since last request: 0.0003017 seconds.
+  importAddress: GUID: a66e4b318d5929b49803b7a0e87fa199 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_03_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a66e4b318d5929b49803b7a0e87fa199 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_03_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a66e4b318d5929b49803b7a0e87fa199' -> (Import Result ID: '281327cd87fc038a1d22ac58a29fea3d') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f57e19f73b51c6ed621cee154edf75de DependenciesID=f144d5b5cd32e15ec1519d5bf8e86ed4 StaticDependenciesID=ce4a57c2e2b38db6efba11ae5114a33b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.8178036Z
+  Time since last request: 0.0005283 seconds.
+  importAddress: GUID: 4807039e97cba6846886cb7d4fb23d23 - Path: Assets/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00f_01_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4807039e97cba6846886cb7d4fb23d23 - Path: Assets/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00f_01_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4807039e97cba6846886cb7d4fb23d23' -> (Import Result ID: '954ff8e22a4918fd86350d5bfd1221d2') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cea724a6f3385bd9bc7f6adb14ac3d85 DependenciesID=f2461ded5679d67d698c5e31a8b10398 StaticDependenciesID=c5520d5046566f08af830807edd21a91 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.8459152Z
+  Time since last request: 0.0002506 seconds.
+  importAddress: GUID: 23bad8317dd1d6e4c9736a9325ae075d - Path: Assets/npc_casual_set_00/Prefabs/npc_hairfacial_a_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 23bad8317dd1d6e4c9736a9325ae075d - Path: Assets/npc_casual_set_00/Prefabs/npc_hairfacial_a_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 23bad8317dd1d6e4c9736a9325ae075d' -> (Import Result ID: 'e9bdfd9ae922147197a25681a0948243') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4f22e1892f18897322f752122e65e76 DependenciesID=641cbfdedbe3d15b09c22d2398f47102 StaticDependenciesID=523ec4c0f6579ea024acc413f4332823 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.8697433Z
+  Time since last request: 0.0005911 seconds.
+  importAddress: GUID: 2863d45f7bb13a643b7f1dc4f3cb5a95 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00f_01_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2863d45f7bb13a643b7f1dc4f3cb5a95 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00f_01_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2863d45f7bb13a643b7f1dc4f3cb5a95' -> (Import Result ID: 'a9970246a30cb08258ea72f9070aafcd') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12e2f52c19893db0522044a9bc0ad4fd DependenciesID=bf13f554f2acc2fd4a98f088031e525d StaticDependenciesID=ce2dc714ba0afcc4494f760b173f3c61 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.9040002Z
+  Time since last request: 0.0011351 seconds.
+  importAddress: GUID: 69962a84125a31c428af65c094144769 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_05_01_n.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 69962a84125a31c428af65c094144769 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_05_01_n.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 69962a84125a31c428af65c094144769' -> (Import Result ID: 'c4ce69378122893b5ae032f932ede650') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92a580c40dcf35c5913512823da7605c DependenciesID=9b3ca1c3bab6023165c51da5f67b6c01 StaticDependenciesID=113659487f6f35fd5066c7fb45048fe5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.9223965Z
+  Time since last request: 0.0005563 seconds.
+  importAddress: GUID: 8de24695ed5d02f4ba76beecdbae77e7 - Path: Assets/npc_casual_set_00/Mesh/npc_hairfacial_b_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8de24695ed5d02f4ba76beecdbae77e7 - Path: Assets/npc_casual_set_00/Mesh/npc_hairfacial_b_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8de24695ed5d02f4ba76beecdbae77e7' -> (Import Result ID: 'f3e83ff0455a902ffa1e3a956fc1ce9f') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72e33ee737760287255678ae0cf2f2d2 DependenciesID=d44aab71cf73c9ad5d02bce53d50f8d1 StaticDependenciesID=83cef65567b17c5919130abf70742f14 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.9619226Z
+  Time since last request: 0.0010548 seconds.
+  importAddress: GUID: 8537041de2c9eb64189f87473efeac24 - Path: Assets/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00m_01_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8537041de2c9eb64189f87473efeac24 - Path: Assets/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00m_01_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8537041de2c9eb64189f87473efeac24' -> (Import Result ID: '1edab42bb9b7e3fbfd7d88df2a44b587') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dabbbc9fa089cc790c2c6f34b5928c0d DependenciesID=140d61e4af4297921efc56a74d0d653a StaticDependenciesID=ddddd99a561a594fb757a35091adf75d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:58.9909136Z
+  Time since last request: 0.0010567 seconds.
+  importAddress: GUID: 76d36199a007ebb4bb3973882a0bf1d2 - Path: Assets/npc_casual_set_00/Mesh/npc_haircut_e_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 76d36199a007ebb4bb3973882a0bf1d2 - Path: Assets/npc_casual_set_00/Mesh/npc_haircut_e_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 76d36199a007ebb4bb3973882a0bf1d2' -> (Import Result ID: '6fd137eb5d8a8ffdaaa6bc4baf94dcc9') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6adc9da36edb8e0a80194425743cd44c DependenciesID=81ef59f121ff5c448bb9850c2adc29b4 StaticDependenciesID=7ae0f11ba5196fbf31912f56429e3917 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.0189601Z
+  Time since last request: 0.0000979 seconds.
+  importAddress: GUID: 4350b309aa35d8241b5a918441629bdc - Path: Assets/npc_casual_set_00/Mesh/npc_hmn_01m.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4350b309aa35d8241b5a918441629bdc - Path: Assets/npc_casual_set_00/Mesh/npc_hmn_01m.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4350b309aa35d8241b5a918441629bdc' -> (Import Result ID: 'd2d127a91af232a841053b309ca059e4') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7b6bd5921a2f0a051fc7439f7f9661b DependenciesID=4d73e6299621828fc8c2c1011c648364 StaticDependenciesID=91d7d13cea66b5b4e4a701124edcfa76 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.0573485Z
+  Time since last request: 0.0002168 seconds.
+  importAddress: GUID: 63d9c0478d9d8ec41a1b412150d36c14 - Path: Assets/npc_casual_set_00/Prefabs/npc_haircut_c_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 63d9c0478d9d8ec41a1b412150d36c14 - Path: Assets/npc_casual_set_00/Prefabs/npc_haircut_c_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 63d9c0478d9d8ec41a1b412150d36c14' -> (Import Result ID: 'e26cf63c24ee133996085ff40d3ca703') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7cef7dfe642f785fcf23161148a44d5f DependenciesID=d6041728f4edea2d7c4ecd8dd0124c81 StaticDependenciesID=3d2b925a40ea64c2c9ebd6bee51029cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.2681293Z
+  Time since last request: 0.1866483 seconds.
+  importAddress: GUID: b7af57783c52b324facb78f371ecbb7e - Path: Assets/npc_casual_set_00/Mesh/npc_csl_shoe_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7af57783c52b324facb78f371ecbb7e - Path: Assets/npc_casual_set_00/Mesh/npc_csl_shoe_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7af57783c52b324facb78f371ecbb7e' -> (Import Result ID: '4d62381bde4705803741395129790c32') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04a9b2922465ace940b9bc71542cc4fa DependenciesID=9a1dd43833bdb2ab52eb2c9df8b6ece0 StaticDependenciesID=862d1fde61878a3fe37e3dd3b8e6549f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.2952128Z
+  Time since last request: 0.0000884 seconds.
+  importAddress: GUID: 8c96ef8f2ad32a740a2e4bca7ed8ea84 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_tshirt_00f_01_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8c96ef8f2ad32a740a2e4bca7ed8ea84 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_tshirt_00f_01_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8c96ef8f2ad32a740a2e4bca7ed8ea84' -> (Import Result ID: '25058861de822f5c5d78d8f341915074') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55e342438b16bc90505125f85f8f25bf DependenciesID=b04dafc0fbdf8dcfffecc3b88f3325ef StaticDependenciesID=a7068745f99185c2300c08ac5c4f1dea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.3204883Z
+  Time since last request: 0.0004154 seconds.
+  importAddress: GUID: 787bb9164f9d82747a38af85f6d48125 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_shoe_01_00_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 787bb9164f9d82747a38af85f6d48125 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_shoe_01_00_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 787bb9164f9d82747a38af85f6d48125' -> (Import Result ID: 'f2d430f27f404d52c5ee214ec1618693') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b817b6e5e9738367404364f416899c1d DependenciesID=bb650789392fd3c3ca005f3b8f0559a6 StaticDependenciesID=d128beb16768a50991788b791a7ee456 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.3435529Z
+  Time since last request: 0.0000345 seconds.
+  importAddress: GUID: 140143c4af90e2546a72e39c34b74fb5 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_01_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 140143c4af90e2546a72e39c34b74fb5 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_01_01_msk.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 140143c4af90e2546a72e39c34b74fb5' -> (Import Result ID: '18028be9d7449744aa1ef1d52652ddc3') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8e3af44cc0c02a3d1291b2e8777490d DependenciesID=586f99ae3369aef7796b0b9c400d2267 StaticDependenciesID=cf511680dfa9b1db622eca36ff6b2691 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.3708618Z
+  Time since last request: 0.0015563 seconds.
+  importAddress: GUID: bb636e21513229a4ab5120d7800f8ed1 - Path: Assets/npc_casual_set_00/Scenes/npc_casual_set_00/ReflectionProbe-0.exr - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bb636e21513229a4ab5120d7800f8ed1 - Path: Assets/npc_casual_set_00/Scenes/npc_casual_set_00/ReflectionProbe-0.exr - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bb636e21513229a4ab5120d7800f8ed1' -> (Import Result ID: '565297d960ee1b77f1f21420c6a2d553') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea815bc25dbbefb8a2a517ae3b4379e2 DependenciesID=106e3ba7d85712822e180dc7f02285e4 StaticDependenciesID=5bcbba9363e6faf23ce5a9f06b71f9e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.4046134Z
+  Time since last request: 0.0010426 seconds.
+  importAddress: GUID: 6fca06f9a7ca18e4e8b9b62aa8993eec - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_torso3.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6fca06f9a7ca18e4e8b9b62aa8993eec - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_torso3.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6fca06f9a7ca18e4e8b9b62aa8993eec' -> (Import Result ID: '47aa648515ae8f3dbcde32be895758c1') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85932715215fb2f63abe156a1e8cc66a DependenciesID=bafc4635c306442c5d7edc62a91c1e03 StaticDependenciesID=1330b2a272455537882a527ec56b54d9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.4405272Z
+  Time since last request: 0.0005617 seconds.
+  importAddress: GUID: e1a204dab31551941bd6b5643596e4f5 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_05_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e1a204dab31551941bd6b5643596e4f5 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_05_01_o.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e1a204dab31551941bd6b5643596e4f5' -> (Import Result ID: '7a63ff1fc1e15cfaf6b757be70cf94ee') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2bae7d5fab6855d4ab9731b42cad1bac DependenciesID=cc4b483452a5067bc26cd6d2905d950b StaticDependenciesID=88468ba8512e38b0da2441ec4d178d96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.4637398Z
+  Time since last request: 0.0004527 seconds.
+  importAddress: GUID: 1ba8a0970c788b04ca26d68ccdf0108c - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_shirtopenrolled_00m_sleeves.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1ba8a0970c788b04ca26d68ccdf0108c - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_shirtopenrolled_00m_sleeves.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1ba8a0970c788b04ca26d68ccdf0108c' -> (Import Result ID: 'e9a9071660f18dac6d716b9bb09d75fd') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72a98e8aa60ced7fead9fb4c3464aa4b DependenciesID=02c4f21c7b0f9148ed54b3631f80851d StaticDependenciesID=cb255c91d0e0cbfb78aa9b58a99be92a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.4891987Z
+  Time since last request: 0.0010912 seconds.
+  importAddress: GUID: b7ce1e5d2bfb2a04384eb6b1c2e8166e - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_01_01_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7ce1e5d2bfb2a04384eb6b1c2e8166e - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01f_01_01_c.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7ce1e5d2bfb2a04384eb6b1c2e8166e' -> (Import Result ID: 'ea1d335a9a66407ced28a4a0a08e480e') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb853c6db78e24d73bcf61e268cd99dd DependenciesID=326c3f8b4da723a3b5be75a88b1fd64d StaticDependenciesID=43fe6c5f4a4ecc1f747fdd79d1dcbd3e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.5144917Z
+  Time since last request: 0.0007326 seconds.
+  importAddress: GUID: 4a5cbad2e4f5fa64cae1b9cbcc0a0e3e - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_torso5.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4a5cbad2e4f5fa64cae1b9cbcc0a0e3e - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_torso5.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4a5cbad2e4f5fa64cae1b9cbcc0a0e3e' -> (Import Result ID: '6e9a94f2a7e1e6fcace0132cd4f6612a') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da780463358ec8b03c2327d386f835ba DependenciesID=79feb378eff222ee5938b95412554b81 StaticDependenciesID=312fdcd926f027756e50115e87e6523d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.5415986Z
+  Time since last request: 0.0001934 seconds.
+  importAddress: GUID: 402a99ac41d6dfb4cb5d4da4db32d3d3 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01m_02_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 402a99ac41d6dfb4cb5d4da4db32d3d3 - Path: Assets/npc_casual_set_00/Textures/npc_hmn_face_01m_02_01_m.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 402a99ac41d6dfb4cb5d4da4db32d3d3' -> (Import Result ID: 'a365d03799c2853dce0d4480677ab658') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=343a2fd450b31a79ac7e16d0c3f5a5b4 DependenciesID=f4e100559ff909e1b45a57e66752d3d6 StaticDependenciesID=fa35f0868ad03576f7ce8e3cc06e464c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.5711958Z
+  Time since last request: 0.0013851 seconds.
+  importAddress: GUID: 3f99c85f1067d56409860d8643903dec - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_pants_00f_01_01bw.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3f99c85f1067d56409860d8643903dec - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_pants_00f_01_01bw.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3f99c85f1067d56409860d8643903dec' -> (Import Result ID: 'a338e2aa45238ef0d8673785857fd18d') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05961a20529b6d1a8ecf82c137946eb9 DependenciesID=aa0a94d46a45536cfa980049c26189c9 StaticDependenciesID=24a4f40987b2f85a22ebd287731c81de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.5975677Z
+  Time since last request: 0.0004924 seconds.
+  importAddress: GUID: bf55304692ce8294c901447814700bfe - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_head3.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bf55304692ce8294c901447814700bfe - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_head3.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bf55304692ce8294c901447814700bfe' -> (Import Result ID: '97e53acc3afc143ace05ed7820a0097f') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ea6e4629b00c104830f495d8425ce4b DependenciesID=80694b6d901857a122dbe9b0fa61c600 StaticDependenciesID=094d026cb56102d1411897c77f643ca2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.6208579Z
+  Time since last request: 0.0000306 seconds.
+  importAddress: GUID: 487be0c9c75090e4cbb4ff4d6cf4a54a - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_lowerbody6.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 487be0c9c75090e4cbb4ff4d6cf4a54a - Path: Assets/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_lowerbody6.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 487be0c9c75090e4cbb4ff4d6cf4a54a' -> (Import Result ID: 'aa385022ac326382389969df93578cc5') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c33338c24b4df33d412825738651349e DependenciesID=ffb6c1ae4e0ed5dc317d2134bb622d52 StaticDependenciesID=8ca8e54bb6a7d1f303b8a55a29108138 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.6423793Z
+  Time since last request: 0.0000471 seconds.
+  importAddress: GUID: 26edce56d710fb74f85f312e082e263a - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_tshirt_00m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 26edce56d710fb74f85f312e082e263a - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_tshirt_00m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 26edce56d710fb74f85f312e082e263a' -> (Import Result ID: '172ec3773eace35506d79b5f7373e180') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fab73065776de4e5adc90e5f75c02489 DependenciesID=e4cfc09d9310d37b1eebbde1f80c2730 StaticDependenciesID=b8ca8f2a44029fdb4268598fad6be550 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.6658432Z
+  Time since last request: 0.0005528 seconds.
+  importAddress: GUID: ea15e3bc19ae80c4a86ee5381839f2fa - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_csl_shirtopenrolled_00m_sleeves.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ea15e3bc19ae80c4a86ee5381839f2fa - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_csl_shirtopenrolled_00m_sleeves.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ea15e3bc19ae80c4a86ee5381839f2fa' -> (Import Result ID: '7bfdb4c4da145de72b02e73d700327ab') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ecae91ba203ce3f2b6794f590a1035c DependenciesID=f27324aff22cd43eab455e43e9c99763 StaticDependenciesID=406911e36deb7203891dc6493fdf4716 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.6898408Z
+  Time since last request: 0.0003576 seconds.
+  importAddress: GUID: 06856ec0f8dac7f4ebac851640e0daf4 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_arms2.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 06856ec0f8dac7f4ebac851640e0daf4 - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_arms2.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 06856ec0f8dac7f4ebac851640e0daf4' -> (Import Result ID: '3ac132e778352f507846f8d2b2968b42') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc098c58d02b7e846fd50b6774819c68 DependenciesID=d69fe53635d1b71a06a22cb37ccfe80c StaticDependenciesID=e9608117c872d9eaaa487026ad0c8ee6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.7239304Z
+  Time since last request: 0.0000275 seconds.
+  importAddress: GUID: d249f93bda39ce645a0af9fe8578b005 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hmn_face_01m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d249f93bda39ce645a0af9fe8578b005 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hmn_face_01m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d249f93bda39ce645a0af9fe8578b005' -> (Import Result ID: '406f9528c6adc7e52b2c719368bc74db') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=425f6aa2958eb81cc6f7f1fd23095ff3 DependenciesID=35a48de0375f504f5db62c46a724ad4c StaticDependenciesID=1b5ec6c55c1af3a7c1ecbc1e3131c47a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.7476889Z
+  Time since last request: 0.0007466 seconds.
+  importAddress: GUID: 7187b14939a19e9468d8f364e1dd985d - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_10.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7187b14939a19e9468d8f364e1dd985d - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_10.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7187b14939a19e9468d8f364e1dd985d' -> (Import Result ID: '6da357b6fe196f0056bb99dec99e8858') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8691a9cb71dfc49e70b0fad9c66d58fd DependenciesID=787590b75ed2c1b6602410ad731b500d StaticDependenciesID=2ccfa9cac95f77e71e98f57ea5dc3002 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.7741857Z
+  Time since last request: 0.0009183 seconds.
+  importAddress: GUID: b6eb4c4121ddb6141b1a71c69cb2a9ad - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_csl_shirtopenrolled_00f_parts.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b6eb4c4121ddb6141b1a71c69cb2a9ad - Path: Assets/npc_casual_set_00/Mesh/Mesh_Parts/npc_csl_shirtopenrolled_00f_parts.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b6eb4c4121ddb6141b1a71c69cb2a9ad' -> (Import Result ID: '1a121deda0fd563d417a3976f8fd7c8a') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0a0e0cd1a5c02583ccf775dd7c626b0 DependenciesID=6b705e8f9cb76871dfeeb8471e415cce StaticDependenciesID=622c20180e6bff6c064762a3b575d313 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.8128903Z
+  Time since last request: 0.0000645 seconds.
+  importAddress: GUID: 048fa26565b1f0c41a3b9c43183e01c3 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_tshirt_00f_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 048fa26565b1f0c41a3b9c43183e01c3 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_tshirt_00f_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 048fa26565b1f0c41a3b9c43183e01c3' -> (Import Result ID: 'edf770932a62789b9b18262a5fdbd9c6') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97b2f4ac954d061379805869ec110893 DependenciesID=a48468cd38d6dc7304a8dd459b35861c StaticDependenciesID=53d6c31efc29fb1f6d0d3faa51c5aabb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.8746518Z
+  Time since last request: 0.0379876 seconds.
+  importAddress: GUID: 1d35e4ca5cce84c489209a330c303156 - Path: Assets/npc_casual_set_00/Mesh/npc_haircut_a_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1d35e4ca5cce84c489209a330c303156 - Path: Assets/npc_casual_set_00/Mesh/npc_haircut_a_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1d35e4ca5cce84c489209a330c303156' -> (Import Result ID: '0a60415564e3322802ba1f21e1517004') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=553cafffa685253b7912a6837a8517e1 DependenciesID=c15cdf46599c5e6ffc5d55ba29651a6f StaticDependenciesID=9ad3b06ffe2607cb98953395cfedf4a0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.9160663Z
+  Time since last request: 0.0000377 seconds.
+  importAddress: GUID: 07cfd655bf23cbc409ab05c4e0d2d549 - Path: Assets/npc_casual_set_00/Mesh/npc_hmn_01f.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 07cfd655bf23cbc409ab05c4e0d2d549 - Path: Assets/npc_casual_set_00/Mesh/npc_hmn_01f.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 07cfd655bf23cbc409ab05c4e0d2d549' -> (Import Result ID: '386daa79232d49595b2a2347afffc8b2') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf40ac6854d6e88ca6b5568f6c36835c DependenciesID=a885b54643bd2ff394d4316c0b48795c StaticDependenciesID=0e03d34977befc2c7260b12e55f85d33 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:02:59.9807413Z
+  Time since last request: 0.0008582 seconds.
+  importAddress: GUID: 58159088b4330c043b756ac278d08403 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 58159088b4330c043b756ac278d08403 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 58159088b4330c043b756ac278d08403' -> (Import Result ID: 'ebe612ebc137548de56296add1cbd990') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5bfbb92edcf3b2c54a282c462f78801 DependenciesID=c753ed10b76a6abde3a65d0dea1edc9c StaticDependenciesID=4fee12fc8a8cb4c478464fc5956672e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:03:00.0024796Z
+  Time since last request: 0.0010242 seconds.
+  importAddress: GUID: a60b9ca8b22b324478f4ebebaab0e280 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_12.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a60b9ca8b22b324478f4ebebaab0e280 - Path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_12.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a60b9ca8b22b324478f4ebebaab0e280' -> (Import Result ID: '29cac072d072c95a2692a163ffc03440') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=043aa46c20b096338db8843e99830beb DependenciesID=66910687978517c2257e2782eceaf198 StaticDependenciesID=e37ccfb02150102c88e38b895055f643 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:03:00.0284844Z
+  Time since last request: 0.0003998 seconds.
+  importAddress: GUID: 1e702983913400042ac3fcd1173a6d37 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_00_character_02m_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1e702983913400042ac3fcd1173a6d37 - Path: Assets/npc_casual_set_00/Prefabs/npc_csl_00_character_02m_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1e702983913400042ac3fcd1173a6d37' -> (Import Result ID: 'beb7502e574aaa44efe076b8ae3bf7fe') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d853259ced4b09e929ecd5540add575 DependenciesID=0d79dab21a55b1d7d01774f25fe316a0 StaticDependenciesID=b693f1cdfbc9799becf70338963db015 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 457
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T16:03:00.0716226Z
+  Time since last request: 0.0000405 seconds.
+  importAddress: GUID: d7351985ce7182d4cb5196e166a96bb8 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hmn_body_01m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d7351985ce7182d4cb5196e166a96bb8 - Path: Assets/npc_casual_set_00/MaterialsUPR/mtl_npc_hmn_body_01m_01_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d7351985ce7182d4cb5196e166a96bb8' -> (Import Result ID: 'f3d254f34235af700dc3b09e29190c6d') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60457bafa784e847b359f785d2bf75d5 DependenciesID=b0fb892211e79f204e5508ca54b490a7 StaticDependenciesID=f042f40018d6188259cbc39a7f61901f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

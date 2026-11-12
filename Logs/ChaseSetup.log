@@ -1,0 +1,45 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 33468)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 18696)
+VBCSCompiler prewarm took 45.61 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-KORISNIK" at "2026-11-11T16:13:53.8267925Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'sr' Physical Memory: 15836 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-11T16:13:53Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 31868, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.6.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              dd723afe1ba745e2a8941bc797d37c8a
+  Correlation Id:          71759682adb6df8a5797010f24a60d28
+  External correlation Id: 5405430799350521613
+  Machine Id:              2XDAP1EhRuL1+CZ4NH82q3c3ifQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-KORISNIK" (connect: 0.00s, validation: 0.01s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-KORISNIK-notifications" at "2026-11-11T16:13:53.8857175Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872896050003-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\KORISNIK\Projects\SEPSIMULATOR
+-executeMethod
+ChaseGameSceneSetup.Build
+-quit
+-logFile
+C:\Users\KORISNIK\Projects\SEPSIMULATOR\Logs\ChaseSetup.log
+Successfully changed project path to: C:\Users\KORISNIK\Projects\SEPSIMULATOR
+C:/Users/KORISNIK/Projects/SEPSIMULATOR
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 1
